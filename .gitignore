@@ -1,4 +1,14 @@
+.idea/
 .DS_Store
-/public
-/node_modules
-/.idea
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+## Build directory
+extension/
+dist/
+yarn-error.log
